@@ -30,14 +30,14 @@ router.post("/login", (req, res) => {
     if (!dbUserData) {
       res.status(400).json({ message: "No user account found!" });
       return;
-    }
+    };
 
     const validPassword = dbUserData.checkPassword(req.body.password);
 
     if (!validPassword) {
       res.status(400).json({ message: "Incorrect password!" });
       return;
-    }
+    };
 
     req.session.save(() => {
       req.session.userId = dbUserData.id;

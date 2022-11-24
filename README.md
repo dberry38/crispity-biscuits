@@ -6,13 +6,10 @@
 A blog site for sharing tips and articles related to tech.
 
 ## Motivation
-Creating a simple interface for keeping notes.
 
-## Installation
-N/A
+## Technologies Used
 
 ## Usage
-Click get started to take notes except it's not working.
 
 ## Demonstration
 N/A
